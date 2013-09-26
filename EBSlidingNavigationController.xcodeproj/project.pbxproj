@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DA9D5EB717F4A96F0087CCBD /* UniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DA9D5EB817F4A96F0087CCBD /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildPhases = (
+				DA9D5EBD17F4AD290087CCBD /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalLib;
+			productName = UniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		DA9D5E9217F4A1120087CCBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9D5E9117F4A1120087CCBD /* Foundation.framework */; };
+		DA9D5E9717F4A1120087CCBD /* EBSlidingNavigationController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9D5E9617F4A1120087CCBD /* EBSlidingNavigationController.h */; };
+		DA9D5E9917F4A1120087CCBD /* EBSlidingNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D5E9817F4A1120087CCBD /* EBSlidingNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA9D5E8C17F4A1120087CCBD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DA9D5E9717F4A1120087CCBD /* EBSlidingNavigationController.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA9D5E8E17F4A1120087CCBD /* libEBSlidingNavigationController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEBSlidingNavigationController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9D5E9117F4A1120087CCBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA9D5E9517F4A1120087CCBD /* EBSlidingNavigationController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EBSlidingNavigationController-Prefix.pch"; sourceTree = "<group>"; };
+		DA9D5E9617F4A1120087CCBD /* EBSlidingNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBSlidingNavigationController.h; sourceTree = "<group>"; };
+		DA9D5E9817F4A1120087CCBD /* EBSlidingNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBSlidingNavigationController.m; sourceTree = "<group>"; };
+		DA9D5E9F17F4A1120087CCBD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DA9D5EA217F4A1120087CCBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA9D5E8B17F4A1120087CCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9D5E9217F4A1120087CCBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA9D5E8517F4A1120087CCBD = {
+			isa = PBXGroup;
+			children = (
+				DA9D5E9317F4A1120087CCBD /* EBSlidingNavigationController */,
+				DA9D5E9017F4A1120087CCBD /* Frameworks */,
+				DA9D5E8F17F4A1120087CCBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA9D5E8F17F4A1120087CCBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA9D5E8E17F4A1120087CCBD /* libEBSlidingNavigationController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA9D5E9017F4A1120087CCBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA9D5E9117F4A1120087CCBD /* Foundation.framework */,
+				DA9D5E9F17F4A1120087CCBD /* XCTest.framework */,
+				DA9D5EA217F4A1120087CCBD /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA9D5E9317F4A1120087CCBD /* EBSlidingNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				DA9D5E9617F4A1120087CCBD /* EBSlidingNavigationController.h */,
+				DA9D5E9817F4A1120087CCBD /* EBSlidingNavigationController.m */,
+				DA9D5E9417F4A1120087CCBD /* Supporting Files */,
+			);
+			path = EBSlidingNavigationController;
+			sourceTree = "<group>";
+		};
+		DA9D5E9417F4A1120087CCBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA9D5E9517F4A1120087CCBD /* EBSlidingNavigationController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA9D5E8D17F4A1120087CCBD /* EBSlidingNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9D5EB117F4A1120087CCBD /* Build configuration list for PBXNativeTarget "EBSlidingNavigationController" */;
+			buildPhases = (
+				DA9D5E8A17F4A1120087CCBD /* Sources */,
+				DA9D5E8B17F4A1120087CCBD /* Frameworks */,
+				DA9D5E8C17F4A1120087CCBD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EBSlidingNavigationController;
+			productName = EBSlidingNavigationController;
+			productReference = DA9D5E8E17F4A1120087CCBD /* libEBSlidingNavigationController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA9D5E8617F4A1120087CCBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Catalyst;
+			};
+			buildConfigurationList = DA9D5E8917F4A1120087CCBD /* Build configuration list for PBXProject "EBSlidingNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA9D5E8517F4A1120087CCBD;
+			productRefGroup = DA9D5E8F17F4A1120087CCBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA9D5E8D17F4A1120087CCBD /* EBSlidingNavigationController */,
+				DA9D5EB717F4A96F0087CCBD /* UniversalLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DA9D5EBD17F4AD290087CCBD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target ImageFilters ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target ImageFilters -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA9D5E8A17F4A1120087CCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9D5E9917F4A1120087CCBD /* EBSlidingNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA9D5EAF17F4A1120087CCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA9D5EB017F4A1120087CCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA9D5EB217F4A1120087CCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/EBSlidingNavigationController.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EBSlidingNavigationController/EBSlidingNavigationController-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DA9D5EB317F4A1120087CCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/EBSlidingNavigationController.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EBSlidingNavigationController/EBSlidingNavigationController-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DA9D5EB917F4A96F0087CCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA9D5EBA17F4A96F0087CCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA9D5E8917F4A1120087CCBD /* Build configuration list for PBXProject "EBSlidingNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9D5EAF17F4A1120087CCBD /* Debug */,
+				DA9D5EB017F4A1120087CCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9D5EB117F4A1120087CCBD /* Build configuration list for PBXNativeTarget "EBSlidingNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9D5EB217F4A1120087CCBD /* Debug */,
+				DA9D5EB317F4A1120087CCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA9D5EB817F4A96F0087CCBD /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9D5EB917F4A96F0087CCBD /* Debug */,
+				DA9D5EBA17F4A96F0087CCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA9D5E8617F4A1120087CCBD /* Project object */;
+}
